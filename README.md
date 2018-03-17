@@ -38,7 +38,7 @@ Now you can visit the website through host:port.
 
 ### Export the QQ Music Songlist
 
-Open [QQ music website](http://music.qq.com), and enter the sonlist that you want to convert. Copy the url, e.g. `https://y.qq.com/n/yqq/playlist/3363492195.html` and paste it in website. Then you will get a kwl file. Download it. Note that the songlist of QQ should be public, or you can not get the kwl file.
+Open [QQ music website](http://music.qq.com), and enter the songlist that you want to convert. Copy the url, e.g. `https://y.qq.com/n/yqq/playlist/3363492195.html` and paste it in website. Then you will get a kwl file. Download it. Note that the songlist of QQ should be public, or you can not get the kwl file.
 
 ### Import the Songlist
 
@@ -46,7 +46,7 @@ Download an old version of Netease Music because the newest version does not sup
 
 ### Compare Differences
 
-Some music can not be found in Netease Music so you can compare differences in the website. Paste the url of QQ music and Netease Music and the website will show the differences. You can add the song in hand.
+Some music can not be found in Netease Music so you can compare differences in the website. Paste the url of QQ music and Netease Music then the website will show the differences. You can add the song that has not been imported successfully in hand.
 
 ---
 
