@@ -13,9 +13,12 @@ def getList(url):
     :param url: 
     :return: [(歌名, 歌手, 专辑), ...]
     '''
+    headers = {'content-type': 'application/json',
+			           'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0'}
+    
     id = url[url.find('id=')+len('id='):]
     url = 'http://music.163.com/api/playlist/detail?id='+id
-    r = requests.get(url)
+    r = requests.get(url,headers=headers)
     data = json.loads(r.text)
     l = []
     for track in data['result']['tracks']:
@@ -34,4 +37,4 @@ def getList(url):
 
 
 if __name__ == '__main__':
-    getList('http://music.163.com/#/playlist?id=98176052')
+    print getList('http://music.163.com/#/playlist?id=98176052')
