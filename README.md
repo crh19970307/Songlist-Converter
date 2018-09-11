@@ -16,7 +16,7 @@ This is a tool that converts the songlist of QQ music to Netease Music. The repo
 First, clone the repo and install necessary packages.
 
 ```bash
-https://github.com/crh19970307/Songlist-Converter.git
+git clone https://github.com/crh19970307/Songlist-Converter.git
 cd Songlist-Converter
 ./init.sh
 ```
